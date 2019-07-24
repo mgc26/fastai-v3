@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/a3rrz6i72eeewxp/trained_model32.pkl?dl=1'
+export_file_name = 'trained_model32.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Conductive', 'Mixed', 'Normal', 'Sensorineural']
 path = Path(__file__).parent
 
 app = Starlette()
